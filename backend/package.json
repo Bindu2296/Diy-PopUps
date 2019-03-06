@@ -1,0 +1,24 @@
+{
+  "name": "user-service-mongo",
+  "version": "1.0.0",
+  "description": "User Service , while persisting data in Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "restart": "nodemon index.js"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "nodemon",
+    "body-parser"
+  ],
+  "author": "mohsinkd786",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "nodemon": "^1.18.4"
+  }
+}
